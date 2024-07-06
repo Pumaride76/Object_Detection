@@ -22,7 +22,7 @@ except cv2.error as e:
     exit(1)
 
 # Load the input image
-image_path = "C:/Users/HARSH/OneDrive/Desktop/Deepthi/download.jpeg"
+image_path = "C:/Users/HARSH/OneDrive/Desktop/Deepthi/new.jpg"
 if not os.path.isfile(image_path):
     print(f"Error: The file {image_path} does not exist.")
     exit(1)
